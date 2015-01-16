@@ -119,11 +119,7 @@ var vowelCounter = function(str) {
 		}
 	}
 	return counter;
-}
-
-
-
-
+};
 
 
 
