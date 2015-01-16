@@ -101,7 +101,8 @@ var voweler = function(str) {
   var vowels = ['a','e','i','o','u'];
   str = str.toLowerCase();
   var myObject = {};
-  var counter = 0;
+  var counter = 0; 
+  debugger;
   for (var i = 0; i < str.length; i++) {
     for (var j =  0; j < vowels.length; j++) {
       if (str[i] === vowels[j]) {
@@ -114,6 +115,8 @@ var voweler = function(str) {
   }
   return myObject;
 };
+
+voweler("This is a test");
 
 
 
